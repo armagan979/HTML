@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('C:\Users\armag\Documents\HTML\Poppins-Regular.ttf');
+}
+#navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width:100%;
+    height: 5%;
+}
+
+#main{
+    display:flex;
+    flex-direction:row;
+    background: #F5F5F5;
+    font-family: 'Poppins';
+}
+#pplogo{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    border-radius: 7.77402px;
+}
+#company-name{
+    color: #444BAB;
+}
+
+#ppalogo{
+    margin-right: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+#profile{
+    display:flex;
+    flex-direction:row;
+}
+
+#notify{
+    margin-right: 15px;
+    padding: 10px;
+}
+
+#pic1{
+    margin-left: 15px;
+    margin: 10px;
+}
+
+#arrow{
+    height: 7.91px;
+    width: 13.75px ;
+    margin:20px;
+}
+
+#photo{
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#left{
+    display:flex;
+    flex-direction:column;
+    width: 23%;
+    height: 55%;
+    background: #FFFFFF;
+    margin: 40px;
+    padding: 10px;
+}
+
+#right{
+    display:flex;
+    flex-direction:column;
+    width: 64%;
+    height: 100%;
+    margin:40px;
+}
+
+#education{
+    background: #FFFFFF;
+    padding: 20px;
+    height:277px;
+}
+
+#work-experience{
+    background: #FFFFFF;
+    padding: 21px;
+    height:731px;
+    margin-top: 30px;
+}
+
+#description{
+    width:763px ;
+    padding:3px;     
+}
+
+#projects{
+    background: #FFFFFF;
+    padding: 20px;
+    height:382px;
+    margin-top: 30px;
+}
+
+#about-projects{
+    display:flex;
+    width:1116px;
+    font-weight: 400;
+    size: 20px;
+    line-height: 30px;
+    letter-spacing: 2%;
+    padding:3;
+}
+
+#frameworks{
+    background: #FFFFFF;
+    margin-top: 30px;
+    padding: 21px;
+}
+
+#achievements{
+    background: #FFFFFF;
+    margin-top: 30px;
+    padding: 21px;
+}
+
+
